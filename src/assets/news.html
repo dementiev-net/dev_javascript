@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <%= require('html-loader!./templates/meta.html').default %>
+    <title>Новости</title>
+</head>
+<body>
+
+<%= require('html-loader!./templates/header.html').default %>
+
+<div class="container">
+    <h1 class="header teal-text">Новости</h1>
+    <div id="app"></div>
+</div>
+
+<%= require('html-loader!./templates/footer.html').default %>
+
+</body>
+</html>

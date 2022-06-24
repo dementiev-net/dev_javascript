@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <%= require('html-loader!./templates/meta.html').default %>
+    <title>Тестовый сайт</title>
+</head>
+<body>
+
+<%= require('html-loader!./templates/header.html').default %>
+
+<div class="container">
+    <h1 class="header teal-text">Тестовый сайт</h1>
+    <div class="links">
+        <a class="links__item waves-effect waves-light btn" href="pages/news.html">Новости</a>
+        <a class="links__item waves-effect waves-light btn" href="pages/articles.html">Статьи</a>
+    </div>
+    <div id="app"></div>
+</div>
+
+<%= require('html-loader!./templates/footer.html').default %>
+
+</body>
+</html>

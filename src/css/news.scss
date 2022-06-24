@@ -1,0 +1,20 @@
+@import 'common.scss';
+
+#app {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news {
+  margin-bottom: 20px;
+
+    .news__header {
+      padding: 10px;
+      font-weight: 800;
+      background-color: #eee;
+    }
+
+    .news__content {
+      padding: 10px;
+  }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <%= require('html-loader!./templates/meta.html').default %>
+    <title>Статьи</title>
+</head>
+<body>
+
+<%= require('html-loader!./templates/header.html').default %>
+
+<div class="container">
+    <h1 class="header teal-text">Статьи</h1>
+    <section class="articles">
+        <a class="article__link" href="./articles/articles1.html">
+            <div>Статья №1</div>
+        </a>
+        <a class="article__link" href="./articles/articles2.html">
+            <div>Статья №2</div>
+        </a>
+        <a class="article__link" href="./articles/articles3.html">
+            <div>Статья №3</div>
+        </a>
+        <a class="article__link" href="./articles/articles4.html">
+            <div>Статья №4</div>
+        </a>
+        <a class="article__link" href="./articles/articles5.html">
+            <div>Статья №5</div>
+        </a>
+    </section>
+</div>
+
+<%= require('html-loader!./templates/footer.html').default %>
+
+</body>
+</html>

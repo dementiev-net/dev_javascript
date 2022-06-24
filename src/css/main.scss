@@ -1,0 +1,16 @@
+@import 'common.scss';
+
+.links {
+  display: flex;
+  justify-content: left;
+  padding: 0 10px 50px 0;
+
+  .links__item {
+    padding: 0 10px;
+    margin-right: 20px;
+
+    &:hover {
+      font-style: italic;
+    }
+  }
+}

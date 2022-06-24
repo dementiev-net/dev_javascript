@@ -1,0 +1,45 @@
+{
+  "name": "javascript_dev",
+  "version": "1.0.0",
+  "description": "Шаблон для разработки (JavaScript, Webpack)",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --hot --open",
+    "build": "cross-env BUILD_TYPE=development webpack -c webpack.config.js",
+    "build-prod": "cross-env BUILD_TYPE=production webpack -c webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "webpack"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dementiev-net/javascript_dev.git"
+  },
+  "author": "Dmitry Dementiev <info@dementiev.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dementiev-net/javascript_dev/issues"
+  },
+  "homepage": "https://github.com/dementiev-net/javascript_dev#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.1",
+    "favicons-webpack-plugin": "^5.0.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.1.2",
+    "html-webpack-plugin": "^5.5.0",
+    "image-webpack-loader": "^8.1.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "node-sass": "^7.0.1",
+    "sass": "^1.53.0",
+    "sass-loader": "^13.0.0",
+    "terser-webpack-plugin": "^5.3.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.2"
+  }
+}
