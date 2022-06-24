@@ -1,7 +1,7 @@
 {
   "name": "javascript_dev",
   "version": "1.0.0",
-  "description": "Шаблон для разработки (JavaScript, Webpack)",
+  "description": "Шаблон для разработки на JavaScript",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --hot --open",
